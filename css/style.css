@@ -1,0 +1,73 @@
+body {
+    background-color: #0c3365;
+    
+    
+}
+
+.foto {
+    border-radius: 50%;
+    border: 5px solid rgb(73, 144, 206)
+}
+
+
+.fundal {
+    background-image: url(backgroundcode.jpg)
+
+}
+.mytitle {
+    color: white;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    
+   
+}
+.first-row{
+    color: white;
+    font-family: sans-serif
+}
+
+.featimg{
+    border-radius: 15px;
+    box-shadow: 3px 3px 20px black
+    
+}
+
+.feauters-header {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.feauterd-title {
+    
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+    
+
+.description{
+    color: white;
+    font-family: sans-serif;
+}
+
+.halt {
+    background-color: #0c3365;
+    font-family: serif;
+}
+
+.footertext{
+    color: white;
+    font-family: sans-serif
+}
+
+.subbutton{
+    color: #0c3365;
+    font-family: sans-serif;
+    
+    
+    
+}
