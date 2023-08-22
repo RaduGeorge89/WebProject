@@ -1,9 +1,5 @@
 body {
-    background-color: #0c3365;
-    
-    
-    
-    
+    background-color: #0c3365;    
 }
 
 .foto {
@@ -34,8 +30,14 @@ body {
 
 .featimg{
     border-radius: 15px;
-    box-shadow: 3px 3px 20px black
+    box-shadow: 3px 3px 20px black;
+    height: 150px;
     
+    
+}
+
+.featimg:hover{
+    transform: scale(1.5);
 }
 
 .feauters-header {
