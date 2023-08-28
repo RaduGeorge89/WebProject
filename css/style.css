@@ -36,9 +36,10 @@ body {
     
 }
 
-.featimg:hover{
+@media (hover: hover) {.featimg:hover {
     transform: scale(1.5);
 }
+  }
 
 .feauters-header {
     color: white;
