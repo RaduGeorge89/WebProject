@@ -1,83 +1,119 @@
+
+
 body {
-    background-color: #0c3365;    
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .foto {
-    border-radius: 50%;
-    border: 5px solid rgb(73, 144, 206);
-    height: 200px;
-}
-
-
-.fundal {
-    background-image: url(backgroundcode.jpg);
-    background-repeat: no-repeat;
-}
-.mytitle {
-    color: white;
-    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    letter-spacing: 3px;
-    font-weight: bold;
-    
-    
-   
-}
-.first-row{
-    color: white;
-    font-family: sans-serif;
-    font-size: 1rem;
-}
-
-.featimg{
+    width: 300px;
+    height: auto;
     border-radius: 15px;
-    box-shadow: 3px 3px 20px black;
-    height: 150px;
-    
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media (hover: hover) {.featimg:hover {
-    transform: scale(1.5);
+.mytitle {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 20px;
 }
-  }
+
+.featimg {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.featimg:hover {
+    transform: scale(1.1);
+}
 
 .feauters-header {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    letter-spacing: 2px;
-    font-weight: bold;
-    font-size: 2rem;
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 30px;
 }
 
-.feauterd-title {
-    
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
-    
 
-.description{
-    color: white;
-    font-family: sans-serif;
-    font-size: 1rem;
+.hire-me-button,
+.contact-me-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.hire-me-button {
+    color: #fff;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.hire-me-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.contact-me-button {
+    color: #007bff;
+    background-color: #fff;
+    border: 2px solid #007bff;
+}
+
+.contact-me-button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+.getIn {
+    font-size: 2em; 
+    color: #007bff;
 }
 
 .halt {
-    background-color: #0c3365;
-    font-family: serif;
+    padding: 20px 0; 
+    background-color: #f0f0f0;
 }
 
-.footertext{
-    color: white;
-    font-family: sans-serif
-}
+@media (max-width: 768px) {
+    .foto {
+        
+        border-radius: 25px;
+    }
 
-.subbutton{
-    color: #0c3365;
-    font-family: sans-serif;
     
-    
-    
+    .mytitle {
+        font-size: 2em;
+    }
+
+    .featimg {
+        height: auto;
+    }
+
+    .feauters-header {
+        font-size: 1.8em;
+    }
+
+    .halt {
+        padding: 20px 0;
+    }
+
+    .hire-me-button,
+    .contact-me-button {
+        margin-top: 10px;
+    }
 }
